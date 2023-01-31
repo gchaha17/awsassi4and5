@@ -10,7 +10,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://52.12.77.85","http://localhost:4200"})
+@CrossOrigin(origins = {"http://52.12.77.85","http://localhost:4200","http://assi4and5.s3-website-us-west-2.amazonaws.com"})
 @RequestMapping("/api")
 public class UserResource {
     @Autowired
